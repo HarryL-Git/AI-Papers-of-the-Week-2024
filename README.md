@@ -7,6 +7,12 @@ Here is the weekly series:
 ## 2024
 
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
+- [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
+
+## AI Papers of the Week (April 22 - April 28) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **Many-Shot In-Context Learning** - The paper explores the transition from few-shot to many-shot in-context learning (ICL) for large language models (LLMs), demonstrating substantial performance gains across a range of tasks. It introduces two novel settings: Reinforced ICL, using model-generated rationales instead of human examples, and Unsupervised ICL, which omits rationales and relies solely on domain-specific questions. These methods significantly enhance the model's ability to tackle complex reasoning tasks and overcome pretraining biases, particularly effective in the many-shot regime. The findings also highlight limitations of next-token prediction loss as an indicator of downstream ICL performance. | April 17, 2024 | [Paper](https://arxiv.org/abs/2404.11018)|
 
 ## AI Papers of the Week (April 15 - April 21) - 2024
 | **Paper**  | **Release Date** | **Links** |
