@@ -6,8 +6,9 @@ Here is the weekly series:
 
 ## 2024
 
-- [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
 - [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
+- [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
+
 
 ## AI Papers of the Week (April 22 - April 28) - 2024
 | **Paper**  | **Release Date** | **Links** |
