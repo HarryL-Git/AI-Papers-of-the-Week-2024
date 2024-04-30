@@ -6,8 +6,15 @@ Here is the weekly series:
 
 ## 2024
 
+- [AI Papers of the Week (April 29 - May 5)](./#ai-papers-of-the-week-april-29---may-5---2024)
 - [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
+
+
+## AI Papers of the Week (April 29 - May 5) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs** - The paper introduces AdvPrompter, a method to rapidly generate human-readable adversarial prompts to expose vulnerabilities in Large Language Models (LLMs). This approach, which is about 800 times faster than previous methods, does not require gradient information from the target LLM. It involves a two-step training process using high-quality adversarial suffixes and low-rank fine-tuning. The trained AdvPrompter is effective in deceiving LLMs into producing harmful responses, improving the robustness of LLMs against adversarial attacks. | April 21, 2024 | [Paper](https://arxiv.org/abs/2404.16873)|
 
 
 ## AI Papers of the Week (April 22 - April 28) - 2024
