@@ -15,6 +15,7 @@ Here is the weekly series:
 | **Paper**  | **Release Date** | **Links** |
 | ------------- | ------------- | ------------- |
 | (1) **AdvPrompter: Fast Adaptive Adversarial Prompting for LLMs** - The paper introduces AdvPrompter, a method to rapidly generate human-readable adversarial prompts to expose vulnerabilities in Large Language Models (LLMs). This approach, which is about 800 times faster than previous methods, does not require gradient information from the target LLM. It involves a two-step training process using high-quality adversarial suffixes and low-rank fine-tuning. The trained AdvPrompter is effective in deceiving LLMs into producing harmful responses, improving the robustness of LLMs against adversarial attacks. | April 21, 2024 | [Paper](https://arxiv.org/abs/2404.16873)|
+| (2) **Replacing Judges with Juries: Evaluating LLM Generations with a Panel of Diverse Models** - The paper proposes using a panel of smaller language models (PoLL) to evaluate the output of large language models (LLMs) instead of a single large model. This approach aims to reduce cost and bias while improving evaluation accuracy. The authors demonstrate that a diverse panel of models provides better, less biased assessments and is more cost-effective than using a single large model for evaluating LLMs.  | April 29, 2024 | [Paper](https://arxiv.org/abs/2404.18796)|
 
 
 ## AI Papers of the Week (April 22 - April 28) - 2024
