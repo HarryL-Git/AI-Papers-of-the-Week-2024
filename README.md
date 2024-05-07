@@ -6,9 +6,17 @@ Here is the weekly series:
 
 ## 2024
 
+- [AI Papers of the Week (May 6 - May 12)](./#ai-papers-of-the-week-may-6---may-12---2024)
 - [AI Papers of the Week (April 29 - May 5)](./#ai-papers-of-the-week-april-29---may-5---2024)
 - [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
+
+
+
+## AI Papers of the Week (May 6 - May 12) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory** - The paper draws attention to the highly critical yet overlooked notion of contextual privacy by proposing CONFAIDE, a benchmark designed to identify critical weaknesses in the privacy reasoning capabilities of instruction-tuned LLMs. The experiments show that even the most capable models such as GPT-4 and ChatGPT reveal private information in contexts that humans would not, 39% and 57% of the time, respectively. This leakage persists even when the authors employ privacy-inducing prompts or chain-of-thought reasoning. The work underscores the immediate need to explore novel inference-time privacy-preserving approaches, based on reasoning and theory of mind. | October 27, 2023 | [Paper](https://arxiv.org/abs/2310.17884), [Repo](https://github.com/skywalker023/confAIde)|
 
 
 ## AI Papers of the Week (April 29 - May 5) - 2024
