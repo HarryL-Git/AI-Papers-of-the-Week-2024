@@ -6,11 +6,19 @@ Here is the weekly series:
 
 ## 2024
 
+- [AI Papers of the Week (May 13 - May 19)](./#ai-papers-of-the-week-may-13---may-19---2024)
 - [AI Papers of the Week (May 6 - May 12)](./#ai-papers-of-the-week-may-6---may-12---2024)
 - [AI Papers of the Week (April 29 - May 5)](./#ai-papers-of-the-week-april-29---may-5---2024)
 - [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
 
+
+
+
+## AI Papers of the Week (May 13 - May 19) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **What matters when building vision-language models?** - The paper conducts extensive experiments around pre-trained models, architecture choice, data, and training methods. The consolidation of findings includes the development of Idefics2, an efficient foundational VLM of 8 billion parameters. Idefics2 achieves state-of-the-art performance within its size category across various multimodal benchmarks, and is often on par with models four times its size. The authors release the model (base, instructed, and chat) along with the datasets created for its training. | May 3, 2024 | [Paper](https://arxiv.org/abs/2405.02246), [Repo](https://huggingface.co/collections/HuggingFaceM4/idefics2-661d1971b7c50831dd3ce0fe)|
 
 
 ## AI Papers of the Week (May 6 - May 12) - 2024
