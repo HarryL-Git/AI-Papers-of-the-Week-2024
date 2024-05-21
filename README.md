@@ -6,6 +6,7 @@ Here is the weekly series:
 
 ## 2024
 
+- [AI Papers of the Week (May 20 - May 26)](./#ai-papers-of-the-week-may-20---may-26---2024)
 - [AI Papers of the Week (May 13 - May 19)](./#ai-papers-of-the-week-may-13---may-19---2024)
 - [AI Papers of the Week (May 6 - May 12)](./#ai-papers-of-the-week-may-6---may-12---2024)
 - [AI Papers of the Week (April 29 - May 5)](./#ai-papers-of-the-week-april-29---may-5---2024)
@@ -13,6 +14,11 @@ Here is the weekly series:
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
 
 
+
+## AI Papers of the Week (May 20 - May 26) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **Many-Shot In-Context Learning in Multimodal Foundation Models** - The paper evaluates the performance of multimodal foundation models scaling from few-shot to many-shot ICL. The authors benchmark GPT-4o and Gemini 1.5 Pro across 10 datasets spanning multiple domains (natural imagery, medical imagery, remote sensing, and molecular imagery) and tasks (multi-class, multi-label, and fine-grained classification). We observe that many-shot ICL, including up to almost 2,000 multimodal demonstrating examples, leads to substantial improvements compared to few-shot (<100 examples) ICL across all of the datasets. Further, Gemini 1.5 Pro performance continues to improve log-linearly up to the maximum number of tested examples on many datasets. Given the high inference costs associated with the long prompts required for many-shot ICL, the authors also explore the impact of batching multiple queries in a single API call. We show that batching up to 50 queries can lead to performance improvements under zero-shot and many–shot ICL, with substantial gains in the zero-shot setting on multiple datasets, while drastically reducing per-query cost and latency. Finally, the authors measure ICL data efficiency of the models, or the rate at which the models learn from more demonstrating examples. The authors find that while GPT-4o and Gemini 1.5 Pro achieve similar zero-shot performance across the datasets, Gemini 1.5 Pro exhibits higher ICL data efficiency than GPT-4o on most datasets. The results suggest that many-shot ICL could enable users to efficiently adapt multimodal foundation models to new applications and domains. | May 16, 2024 | [Paper](https://arxiv.org/abs/2405.09798), [Repo](https://github.com/stanfordmlgroup/ManyICL)|
 
 
 ## AI Papers of the Week (May 13 - May 19) - 2024
