@@ -6,6 +6,7 @@ Here is the weekly series:
 
 ## 2024
 
+- [AI Papers of the Week (May 20 - May 26)](./#ai-papers-of-the-week-may-27---june-2---2024)
 - [AI Papers of the Week (May 20 - May 26)](./#ai-papers-of-the-week-may-20---may-26---2024)
 - [AI Papers of the Week (May 13 - May 19)](./#ai-papers-of-the-week-may-13---may-19---2024)
 - [AI Papers of the Week (May 6 - May 12)](./#ai-papers-of-the-week-may-6---may-12---2024)
@@ -13,6 +14,12 @@ Here is the weekly series:
 - [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
 
+
+
+## AI Papers of the Week (May 27 - June 2) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **Automatic Data Curation for Self-Supervised Learning: A Clustering-Based Approach** - In this work, the authors consider the problem of automatic curation of high-quality datasets for self-supervised pre-training. The authors posit that such datasets should be large, diverse and balanced, and propose a clustering-based approach for building ones satisfying all these criteria. This method involves successive and hierarchical applications of k-means on a large and diverse data repository to obtain clusters that distribute uniformly among data concepts, followed by a hierarchical, balanced sampling step from these clusters. Extensive experiments on three different data domains including web-based images, satellite images and text show that features trained on our automatically curated datasets outperform those trained on uncurated data while being on par or better than ones trained on manually curated data. | May 24, 2024 | [Paper](https://arxiv.org/abs/2405.15613), [Repo](https://github.com/facebookresearch/ssl-data-curation)|
 
 
 ## AI Papers of the Week (May 20 - May 26) - 2024
