@@ -6,7 +6,8 @@ Here is the weekly series:
 
 ## 2024
 
-- [AI Papers of the Week (May 20 - May 26)](./#ai-papers-of-the-week-may-27---june-2---2024)
+- [AI Papers of the Week (June 3 - June 9)](./#ai-papers-of-the-week-june-3---june-9---2024)
+- [AI Papers of the Week (May 27 - June 2)](./#ai-papers-of-the-week-may-27---june-2---2024)
 - [AI Papers of the Week (May 20 - May 26)](./#ai-papers-of-the-week-may-20---may-26---2024)
 - [AI Papers of the Week (May 13 - May 19)](./#ai-papers-of-the-week-may-13---may-19---2024)
 - [AI Papers of the Week (May 6 - May 12)](./#ai-papers-of-the-week-may-6---may-12---2024)
@@ -14,6 +15,11 @@ Here is the weekly series:
 - [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
 
+
+## AI Papers of the Week (June 3 - June 9) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **Video-MME: The First-Ever Comprehensive Evaluation Benchmark of Multi-modal LLMs in Video Analysis** - This paper introduces Video-MME, the first-ever full-spectrum, Multi-Modal Evaluation benchmark of MLLMs in Video analysis. This work distinguishes from existing benchmarks through four key features: 1) Diversity in video types, spanning 6 primary visual domains with 30 subfields to ensure broad scenario generalizability; 2) Duration in temporal dimension, encompassing both short-, medium-, and long-term videos, ranging from 11 seconds to 1 hour, for robust contextual dynamics; 3) Breadth in data modalities, integrating multi-modal inputs besides video frames, including subtitles and audios, to unveil the all-round capabilities of MLLMs; 4) Quality in annotations, utilizing rigorous manual labeling by expert annotators to facilitate precise and reliable model assessment. 900 videos with a total of 256 hours are manually selected and annotated by repeatedly viewing all the video content, resulting in 2,700 question-answer pairs. With Video-MME, the authors extensively evaluate various state-of-the-art MLLMs, including GPT-4 series and Gemini 1.5 Pro, as well as open-source image models like InternVL-Chat-V1.5 and video models like LLaVANeXT-Video. The experiments reveal that Gemini 1.5 Pro is the best-performing commercial model, significantly outperforming the open-source models with an average accuracy of 75.7%, compared to 52.5% for LLaVA-NeXT-Video. The results also demonstrate that Video-MME is a universal benchmark, which applies to both image and video MLLMs. Further analysis indicates that subtitle and audio information could significantly enhance video understanding. Besides, a decline in MLLM performance is observed as video duration increases for all models. This dataset along with these findings underscores the need for further improvements in handling longer sequences and multi-modal data, shedding light on future MLLM development. | May 31, 2024 | [Paper](https://arxiv.org/abs/2405.21075), [Repo](https://github.com/BradyFU/Video-MME)|
 
 
 ## AI Papers of the Week (May 27 - June 2) - 2024
