@@ -6,6 +6,7 @@ Here is the weekly series:
 
 ## 2024
 
+- [AI Papers of the Week (June 10 - June 16)](./#ai-papers-of-the-week-june-10---june-16---2024)
 - [AI Papers of the Week (June 3 - June 9)](./#ai-papers-of-the-week-june-3---june-9---2024)
 - [AI Papers of the Week (May 27 - June 2)](./#ai-papers-of-the-week-may-27---june-2---2024)
 - [AI Papers of the Week (May 20 - May 26)](./#ai-papers-of-the-week-may-20---may-26---2024)
@@ -14,6 +15,13 @@ Here is the weekly series:
 - [AI Papers of the Week (April 29 - May 5)](./#ai-papers-of-the-week-april-29---may-5---2024)
 - [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
+
+
+
+## AI Papers of the Week (June 10 - June 16) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild** - This paper introduces WildBench, an automated evaluation framework designed to benchmark large language models (LLMs) using challenging, real-world user queries. WILDBENCH consists of 1,024 tasks carefully selected from over one million human-chatbot conversation logs. For automated evaluation with WILDBENCH, the authors have developed two metrics, WB-Reward and WB-Score, which are computable using advanced LLMs such as GPT-4-turbo. WILDBENCH evaluation uses taskspecific checklists to evaluate model outputs systematically and provides structured explanations that justify the scores and comparisons, resulting in more reliable and interpretable automatic judgments. WB-Reward employs fine-grained pairwise comparisons between model responses, generating five potential outcomes: much better, slightly better, slightly worse, much worse, or a tie. Unlike previous evaluations that employed a single baseline model, the authors selected three baseline models at varying performance levels to ensure a comprehensive pairwise evaluation. Additionally, the authors propose a simple method to mitigate length bias, by converting outcomes of “slightly better/worse” to “tie” if the winner response exceeds the loser one by more than K characters. WB-Score evaluates the quality of model outputs individually, making it a fast and cost-efficient evaluation metric. WILDBENCH results demonstrate a strong correlation with the human-voted Elo ratings from Chatbot Arena on hard tasks. Specifically, WB-Reward achieves a Pearson correlation of 0.98 with top-ranking models. Additionally, WB-Score reaches 0.95, surpassing both ArenaHard’s 0.91 and AlpacaEval2.0’s 0.89 for length-controlled win rates, as well as the 0.87 for regular win rates. | June 7, 2024 | [Paper](https://arxiv.org/abs/2406.04770), [Repo](https://github.com/allenai/WildBench)|
 
 
 ## AI Papers of the Week (June 3 - June 9) - 2024
