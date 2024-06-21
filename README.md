@@ -6,6 +6,7 @@ Here is the weekly series:
 
 ## 2024
 
+- [AI Papers of the Week (June 17 - June 23)](./#ai-papers-of-the-week-june-17---june-23---2024)
 - [AI Papers of the Week (June 10 - June 16)](./#ai-papers-of-the-week-june-10---june-16---2024)
 - [AI Papers of the Week (June 3 - June 9)](./#ai-papers-of-the-week-june-3---june-9---2024)
 - [AI Papers of the Week (May 27 - June 2)](./#ai-papers-of-the-week-may-27---june-2---2024)
@@ -16,6 +17,11 @@ Here is the weekly series:
 - [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
 
+
+## AI Papers of the Week (June 17 - June 23) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **Husky: A Unified, Open-Source Language Agent for Multi-Step Reasoning** - This paper introduces Husky, a holistic, open-source language agent that learns to reason over a unified action space to address a diverse set of complex tasks involving numerical, tabular, and knowledge-based reasoning. Husky iterates between two stages: 1) generating the next action to take towards solving a given task and 2) executing the action using expert models and updating the current solution state. The authors identify a thorough ontology of actions for addressing complex tasks and curate high-quality data to train expert models for executing these actions. The experiments show that Husky outperforms prior language agents across 14 evaluation datasets. Moreover, the authors introduces HuskyQA, a new evaluation set which stress tests language agents for mixed-tool reasoning, with a focus on retrieving missing knowledge and performing numerical reasoning. Despite using 7B models, Husky matches or even exceeds frontier LMs such as GPT-4 on these tasks, showcasing the efficacy of our holistic approach in addressing complex reasoning problems. | June 10, 2024 | [Paper](https://arxiv.org/abs/2406.06469), [Repo](https://github.com/agent-husky/Husky-v1)|
 
 
 ## AI Papers of the Week (June 10 - June 16) - 2024
