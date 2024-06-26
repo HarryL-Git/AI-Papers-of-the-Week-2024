@@ -6,6 +6,7 @@ Here is the weekly series:
 
 ## 2024
 
+- [AI Papers of the Week (June 24 - June 30)](./#ai-papers-of-the-week-june-24---june-30---2024)
 - [AI Papers of the Week (June 17 - June 23)](./#ai-papers-of-the-week-june-17---june-23---2024)
 - [AI Papers of the Week (June 10 - June 16)](./#ai-papers-of-the-week-june-10---june-16---2024)
 - [AI Papers of the Week (June 3 - June 9)](./#ai-papers-of-the-week-june-3---june-9---2024)
@@ -16,6 +17,13 @@ Here is the weekly series:
 - [AI Papers of the Week (April 29 - May 5)](./#ai-papers-of-the-week-april-29---may-5---2024)
 - [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
+
+
+
+## AI Papers of the Week (June 24 - June 30) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **Self-Tuning: Instructing LLMs to Effectively Acquire New Knowledge through Self-Teaching** - This paper motivated by the remarkable success of the Feynman Technique in efficient human learning, the authors introduce SELFTUNING, a learning framework aimed at improving an LLM’s ability to effectively acquire new knowledge from raw documents through self-teaching. Specifically, the authors develop a SELFTEACHING strategy that augments the documents with a set of knowledge-intensive tasks created in a self-supervised manner, focusing on three crucial aspects: memorization, comprehension, and self-reflection. In addition, the authors introduce three Wiki-Newpages-2023-QA datasets to facilitate an in-depth analysis of an LLM’s knowledge acquisition ability concerning memorization, extraction, and reasoning. Extensive experimental results on LLAMA2 family models reveal that SELF-TUNING consistently exhibits superior performance across all knowledge acquisition tasks and excels in preserving previous knowledge. | June 15, 2024 | [Paper](https://arxiv.org/abs/2406.06326)|
 
 
 ## AI Papers of the Week (June 17 - June 23) - 2024
