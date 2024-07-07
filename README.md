@@ -6,6 +6,7 @@ Here is the weekly series:
 
 ## 2024
 
+- [AI Papers of the Week (July 1 - July 7)](./#ai-papers-of-the-week-july-1---july-7---2024)
 - [AI Papers of the Week (June 24 - June 30)](./#ai-papers-of-the-week-june-24---june-30---2024)
 - [AI Papers of the Week (June 17 - June 23)](./#ai-papers-of-the-week-june-17---june-23---2024)
 - [AI Papers of the Week (June 10 - June 16)](./#ai-papers-of-the-week-june-10---june-16---2024)
@@ -18,6 +19,11 @@ Here is the weekly series:
 - [AI Papers of the Week (April 22 - April 28)](./#ai-papers-of-the-week-april-22---april-28---2024)
 - [AI Papers of the Week (April 15 - April 21)](./#ai-papers-of-the-week-april-15---april-21---2024)
 
+
+## AI Papers of the Week (July 1 - July 7) - 2024
+| **Paper**  | **Release Date** | **Links** |
+| ------------- | ------------- | ------------- |
+| (1) **Fantastic Copyrighted Beasts and How (Not) to Generate Them** - This paper builds CopyCat, an evaluation suite consisting of diverse copyrighted characters and a novel evaluation pipeline. This evaluation considers both the detection of similarity to copyrighted characters and generated image's consistency with user input. The evaluation systematically shows that both image and video generation models can still generate characters even if characters' names are not explicitly mentioned in the prompt, sometimes with only two generic keywords (e.g., prompting with "videogame, plumber" consistently generates Nintendo's Mario character). The authors then introduce techniques to semi-automatically identify such keywords or descriptions that trigger character generation. Using this evaluation suite, the authors study runtime mitigation strategies, including both existing methods and new strategies the authors propose. The findings reveal that commonly employed strategies, such as prompt rewriting in the DALL-E system, are not sufficient as standalone guardrails. These strategies must be coupled with other approaches, like negative prompting, to effectively reduce the unintended generation of copyrighted characters. This work provides empirical grounding to the discussion of copyright mitigation strategies and offers actionable insights for model deployers actively implementing them. | June 20, 2024 | [Paper](https://arxiv.org/abs/2406.14526), [Repo](https://github.com/princeton-nlp/CopyCat)|
 
 
 ## AI Papers of the Week (June 24 - June 30) - 2024
